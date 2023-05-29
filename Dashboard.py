@@ -69,7 +69,7 @@ if authentication_status:
     # re-arrange data
     df = pd.read_csv(Path(__file__).parent / "all bank 1.csv")
     df['DATE'] = pd.to_datetime(df['DATE'])
-    address = pd.read_csv('C:/dga2-main/dga2-main/address.csv')
+    address = pd.read_csv(Path(__file__).parent / "address.csv")
     model = pickle.load(open(Path(__file__).parent / 'model.pkl', 'rb'))
     latest = df.groupby('SUBSTATION').last()
     latest['SUBSTATION'] = latest.index
