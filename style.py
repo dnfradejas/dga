@@ -44,8 +44,13 @@ class Style:
                 div[data-testid="stHorizontalBlock"] > div {
                     .css-k3w14i{
    
-                    margin-bottom: 0 !important;
-                    min-height: 0 !important;
+                        margin-bottom: 0 !important;
+                        min-height: 0 !important;
+                    }
+                    .css-1omxj2m {
+                        margin-bottom: 0 !important;
+                        min-height: 0 !important;
+                    }
                 }
 
             </style>
