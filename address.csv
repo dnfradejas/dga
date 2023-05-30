@@ -1,3 +1,111 @@
 SUBSTATION,LAT,LNG,formatted_address,SUBSTATIONnum
-Substation1,14.3386471,120.9369394,"Daang Radyal Blg. 2, Dasmariñas, Cavite, Philippines",Substation 1
-Substation2,14.96451,120.8985248,"XV7X+RC2, Baliuag, Bulacan, Philippines",Substation 2
+ABUBOT,14.3386471,120.9369394,"Daang Radyal Blg. 2, Dasmariñas, Cavite, Philippines",Substation 1
+AMADEO,14.1965188,120.9354607,"Crisanto M. De Los Reyes Ave, Amadeo, Cavite, Philippines",Substation 2
+ANGAT,14.922205,121.0290767,"W2CH+VJP, Angat, Bulacan, Philippines",Substation 3
+AYALA,14.42787069,121.0261156,Philippines,Substation 4
+BACOOR,14.4436369,120.9531374,"CXV3+F72, Meadowood Ave, Bacoor, Cavite, Philippines",Substation 5
+BAGBAGUIN,14.7168907,120.9957127,"PX8W+Q74, Valenzuela, Metro Manila, Philippines",Substation 6
+BALIBAGO,14.294182,121.101775,"74V2+MPC, F.Reyes, Balibago, Santa Rosa, 4026 Laguna, Philippines",Substation 7
+BALINTAWAK,14.6599544,121.0122918,"MERALCO Balintawak Electric Substation, Private Rd, Balintawak, Quezon City, Metro Manila, Philippines",Substation 8
+BALIWAG,14.96451,120.8985248,"XV7X+RC2, Baliuag, Bulacan, Philippines",Substation 9
+BANAWE,14.6308823,121.0026464,"Banawe St, Quezon City, Metro Manila, Philippines",Substation 10
+BATANGAS,13.7803706,121.0523307,"Q3J2+4WW, Diversion Road, Batangas, 4200 Batangas, Philippines",Substation 11
+BF,14.46776677,121.020012,Philippines,Substation 12
+BINONDO,14.5969231,120.9734456,"HXWF+Q98, Dasmariñas St, San Nicolas, Manila, Metro Manila, Philippines",Substation 13
+BOCAUE,14.782796,120.937302,"856 MacArthur Hwy, Bunducan, Bocaue, 3018 Bulacan, Philippines",Substation 14
+BOLBOC,13.77095504,121.0535345,Philippines,Substation 15
+BOTOCAN,14.1564161,121.4849759,"5F4M+HX9, Majayjay, Laguna, Philippines",Substation 16
+BRIDGETOWNE,14.5915222,121.080137,"Eulogio Rodriguez Jr. Ave, Quezon City, Metro Manila, Philippines",Substation 17
+CAINTA,14.588175,121.1110966,"H4Q6+7CH, Ortigas Ave Ext, Santo Domingo, Cainta, 1900 Rizal, Philippines",Substation 18
+CALAMBA,14.1849053,121.1507046,"55M2+X78, Calamba, 4027 Laguna, Philippines",Substation 19
+CALAUAN,14.1681078,121.2974525,"579W+6XW, Bay - Calauan Hwy, Calauan, Laguna, Philippines",Substation 20
+CALUMPIT,14.8987954,120.7745193,"VQXF+GR6, MacArthur Hwy, Calumpit, 3003 Bulacan, Philippines",Substation 21
+CAMARIN,14.7612929,121.0419852,"Q26R+GQ9, Area A. Camarin, Zabarte Road, Barangay 175, Caloocan, 1500 Metro Manila, Philippines",Substation 22
+CANLUBANG,14.21262,121.132264,"647J+2WR, Calamba, 4027 Laguna, Philippines",Substation 23
+CARMELRAY,14.21064,121.081912,"636J+7Q3, Calamba, 4027 Laguna, Philippines",Substation 24
+CBP,14.53088933,120.9796323,Philippines,Substation 25
+CIP,14.17403252,121.13084,Philippines,Substation 26
+CPIP-BATINO,14.2008811,121.1331781,"CPIP, Brgy. Batino, Calamba City, 4027, Laguna, Calamba, 4027 Laguna, Philippines",Substation 27
+CRUZ,15.02935642,120.9356052,Philippines,Substation 28
+CUBAO,14.619815,121.057925,"235 P. Tuazon Blvd, Cubao, Quezon City, 1109 Metro Manila, Philippines",Substation 29
+DILA,14.1751966,121.2927582,"57GV+34C, Bay, Laguna, Philippines",Substation 30
+DILIMAN,14.6617887,121.0662053,"Meralco Diliman Substation, Diliman, Quezon City, Metro Manila, Philippines",Substation 31
+DOLORES,14.572594,121.1408093,"H4FR+28M, Taytay, 1920 Rizal, Philippines",Substation 32
+DUHAT,14.7868406,120.9526101,"QXP3+P2Q, Bocaue, Bulacan, Philippines",Substation 33
+ERMITA,14.5796557,120.9808719,"517 Antonio Flores St, Ermita, Manila, 1000 Metro Manila, Philippines",Substation 34
+ETON,14.64076548,121.0428615,Philippines,Substation 35
+FBGC,14.55227207,121.0592589,Philippines,Substation 36
+FCIE,14.288028,120.930806,"Unnamed Road, Dasmariñas, First Cavite Industrial Estate, 7WQJ+687, Dasmariñas, Cavite, Philippines",Substation 37
+FILINVEST,14.4240031,121.0365855,"1781, Filinvest Ave, Alabang, Muntinlupa, Metro Manila, Philippines",Substation 38
+FPIP,14.1360153,121.1285399,"44PH+CC3 First Philippine Industrial Park, FPIP Main Rd, Santo Tomas, Batangas, Philippines",Substation 39
+GARDNER,14.449742,121.051847,"Sucat, C3X2+VPX, Sucat, Muntinlupa, Metro Manila, Philippines",Substation 40
+GATEWAY,14.2602907,120.9193416,"Gateway Business Park, General Trias, Cavite, Philippines",Substation 41
+GMA,14.323919,121.0202373,"82FC+H39, General Mariano Alvarez, Cavite, Philippines",Substation 42
+GRACE,14.65067893,120.9798393,Philippines,Substation 43
+HILLCREST,14.5714611,121.0662456,"202, 208 Hillcrest Cir, Maynila, Kalakhang Maynila, Philippines",Substation 44
+IMUS,14.3953442,120.9405091,"9WWR+46J, Emilio Aguinaldo Hwy, Imus, Cavite, Philippines",Substation 45
+KAMAGONG,14.5638158,121.0157384,"H278+G7H, Ayala Ave, Makati, Metro Manila, Philippines",Substation 46
+KAMUNING,14.629095,121.038314,"Scout Ybardaloza Street, Sacred Heart , 1103 Quezon City , Metro Manila, Diliman, Quezon City, Metro Manila, Philippines",Substation 47
+KAYBIGA,14.7141105,121.0222028,"P27C+JVW, Quezon City, Metro Manila, Philippines",Substation 48
+LAGUNA,14.1849053,121.1507046,"55M2+X78, Calamba, 4027 Laguna, Philippines",Substation 49
+LANCASTER,14.3707692,120.8953255,"9VCW+844, General Trias, Cavite, Philippines",Substation 50
+LIIP,14.2874308,121.0844267,"73PM+XQF, Biñan, Laguna, Philippines",Substation 52
+LISP,14.2303024,121.0928694,"63JV+44H, South St, Cabuyao, Laguna, Philippines",Substation 53
+LOS,14.17597711,121.2614492,Philippines,Substation 54
+LUCENA,13.9614199,121.5956373,"4301, Lucena, 4301 Quezon, Philippines",Substation 55
+MAKATI,14.566306,121.016308,"H288+GGF, Pablo Ocampo Extn, Santa Cruz, Makati, 1205 Metro Manila, Philippines",Substation 56
+MALABON,14.6653336,120.9669473,"111 Marcelo H. Del Pilar St, Malabon, 1474 Metro Manila, Philippines",Substation 57
+MALATE,14.5657852,120.9943536,"Dagonoy St, Malate, Manila, 1004 Metro Manila, Philippines",Substation 58
+MALAYA,14.3958404,121.3365383,"98WP+8JM, Pililla, Rizal, Philippines",Substation 59
+MALIBAY,14.5374971,121.0215054,"G2PC+XJR, Lumbang, Makati, Metro Manila, Philippines",Substation 60
+MALINTA,14.6928836,120.9655933,"326 MacArthur Hwy, Valenzuela, 1440 Metro Manila, Philippines",Substation 61
+MALOLOS,14.8718287,120.8227018,"VRCF+P3P, Mabini, Malolos, 3000 Bulacan, Philippines",Substation 62
+MANDALUYONG,14.5907771,121.0338013,"285 Shaw Blvd, cor M. Yulo, St, Mandaluyong, 1552 Metro Manila, Philippines",Substation 63
+MANGGAHAN,14.5986049,121.0878195,"H3XQ+C4W, Pasig, Metro Manila, Philippines",Substation 64
+MARIKINA,14.634324,121.0747295,"J3MF+PVH, Katipunan Ave, Marikina, Metro Manila, Philippines",Substation 65
+MARILAO,14.7747243,120.9694156,"QXF9+VQM, M. Villarica Rd, Marilao, 3015 Bulacan, Philippines",Substation 66
+MASINAG,14.622709,121.1264,"J4FG+3HJ, Sumulong Hwy, Antipolo, Metro Manila, Philippines",Substation 67
+MECO,14.59058583,121.0652696,Philippines,Substation 68
+METPARK,14.5514161,120.9897107,"HX2Q+HV8, Roxas Blvd, Pasay, Metro Manila, Philippines",Substation 69
+MEYCAUAYAN,14.76326,120.987512,"QX7Q+822, National Road, Meycauayan, 3020 Bulacan, Philippines",Substation 70
+MEYCAUYAN,14.76326,120.987512,"QX7Q+822, National Road, Meycauayan, 3020 Bulacan, Philippines",Substation 71
+NAIA,14.52558395,121.0110444,Philippines,Substation 72
+NDD,14.71313602,120.9802261,Philippines,Substation 73
+NEW,14.226032,121.755922,"6QG4+C97, Mauban, Quezon, Philippines",Substation 74
+NGCP,14.0255499,121.5999285,Philippines,Substation 75
+NORTH,14.62334158,120.9756587,Philippines,Substation 76
+NOVALICHES,14.7309253,121.0444393,"Quirino Hwy, Novaliches, Quezon City, Metro Manila, Philippines",Substation 77
+NPC,14.31137443,120.9499555,Philippines,Substation 78
+PACO,14.5805687,120.9984254,"682, Paco, Maynila, Kalakhang Maynila, Philippines",Substation 79
+PAGCOR,14.51979781,120.9850609,Philippines,Substation 80
+PAMPLONA,14.4465105,120.9838679,"Talon Uno, Las Piñas, 1747 Metro Manila, Philippines",Substation 81
+PANDACAN,14.596324,121.0153581,"H2W8+G4H, Lubiran, Santa Mesa, Maynila, Kalakhang Maynila, Philippines",Substation 82
+PARANG,14.657716,121.126117,"M45G+3CQ, East Dr, Marikina, 1810 Metro Manila, Philippines",Substation 83
+PARAÑAQUE,14.5134246,120.995167,"Bay Side Court, 680-D Quirino Ave, Tambo, Parañaque, Kalakhang Maynila, Philippines",Substation 84
+PUERTO,14.26303775,120.6827491,Philippines,Substation 85
+PULILAN,14.8937042,120.8738321,"112 Plaridel-Pulilan Diversion Rd, Pulilan, 3005 Bulacan, Philippines",Substation 86
+QUEZON,13.9346903,121.947311,"Quezon, Philippines",Substation 87
+ROCKWELL,14.5657943,121.0373279,"2 Amorsolo Dr, Makati, 1209 Metro Manila, Philippines",Substation 88
+ROSARIO,14.4023918,120.86122,"CV26+XF5, Drive, General Trias, Cavite, Philippines",Substation 89
+SAMPALOC,14.6126042,120.9902708,"JX7R+24R, Sampaloc, Manila, 1008 Metro Manila, Philippines",Substation 90
+SAN,13.7803706,121.0523307,"Q3J2+4WW, Diversion Road, Batangas, 4200 Batangas, Philippines",Substation 91
+SANTOLAN,14.6176898,121.0862764,"J39P+3GC, F. Pasco Ave, Pasig, 1610 Metro Manila, Philippines",Substation 92
+SAOG,14.759515,120.950719,"QX52+R75, MacArthur Hwy, Marilao, 3019 Metro Manila, Philippines",Substation 93
+SAPANG,14.86235484,121.0938014,Philippines,Substation 94
+SHANGRILA,14.58247248,121.0564934,Philippines,Substation 95
+SILANG,14.2361677,120.9734669,"6XPF+F98, Emilio Aguinaldo Hwy, Silang, Cavite, Philippines",Substation 96
+SOUTHWOODS,14.3365798,121.0518265,"83P2+JPP, Pan-Philippine Hwy, San Pedro, Laguna, Philippines",Substation 97
+STA,14.61337074,121.0123203,Philippines,Substation 98
+SUN,14.49288015,121.0398263,Philippines,Substation 99
+TABANG,14.8407561,120.8498738,"RRRX+8W5, Malolos, Bulacan, Philippines",Substation 100
+TAGAYTAY,14.1386434,120.9556978,"Daang Radyal Blg. 2, Amadeo, Cavite, Philippines",Substation 101
+TAGUIG,14.5459781,121.0880469,"30 Elizco Rd, Pasig, Metro Manila, Philippines",Substation 102
+TANZA,14.3783377,120.8334464,"9RHM+89P, Antero Soriano Hwy, Tanza, Cavite, Philippines",Substation 103
+TAYABAS,14.0255057,121.5997032,"2HGX+6V4, Tayabas - Pagbilao Rd, Tayabas, 4327 Quezon, Philippines",Substation 104
+TEGEN,14.5881738,120.9893184,"1000, 1007 D Correa, Paco, Maynila, 1000 Kalakhang Maynila, Philippines",Substation 105
+TERESA,14.568284,121.2008061,"H692+887, Padilla, Antipolo, Rizal, Philippines",Substation 106
+TERNATE,14.2714485,120.6775054,"Ternate, Cavite, Philippines",Substation 107
+TRECE,14.2807874,120.8717277,"BHI Building, Governor's Dr, Trece Martires, 4109 Cavite, Philippines",Substation 108
+TUTUBAN,14.6103454,120.973806,"Tutuban Shopping Complex, Mayhaligue St, cor Antonio Rivera St, Tondo, Manila, 1012 Metro Manila, Philippines",Substation 109
+URDANETA,14.5514163,121.0300053,"235 Recoletos, Makati, 1225 Kalakhang Maynila, Philippines",Substation 110
+VALENCIA,14.61144372,121.0354679,Philippines,Substation 111

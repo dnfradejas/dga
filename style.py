@@ -25,7 +25,7 @@ class Style:
                 }
 
                 div[data-baseweb="select"]{
-                   width: 30%;
+                   width: 50%;
 
                 }
                 div[data-testid="stCaptionContainer"] > p {

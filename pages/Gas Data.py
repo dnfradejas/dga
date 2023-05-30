@@ -22,8 +22,8 @@ names = ["Miles Ramirez", "Edson David"]
 usernames = ["mmramirez", "eddavid"]
 
 # Load hashed passwords
-file_path = "C:/dga2-main/dga2-main/hashed_pw.pkl"
-with open(file_path,"rb") as file:
+file_path = Path(__file__).parent.parent / "hashed_pw.pkl"
+with file_path.open("rb") as file:
     hashed_passwords = pickle.load(file)
 
 credentials = {

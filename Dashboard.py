@@ -69,22 +69,24 @@ if authentication_status:
     # re-arrange data
     df = pd.read_csv(Path(__file__).parent / "all bank 1.csv")
     df['DATE'] = pd.to_datetime(df['DATE'])
-    address = pd.read_csv('C:/dga2-main/dga2-main/address.csv')
+    address = pd.read_csv(Path(__file__).parent / "address.csv")
     model = pickle.load(open(Path(__file__).parent / 'model.pkl', 'rb'))
     latest = df.groupby('SUBSTATION').last()
     latest['SUBSTATION'] = latest.index
     latest = latest.reset_index(drop=True)
     X = latest.iloc[:,2:7]
-    df2 = pd.DataFrame(columns=['Arc discharge', 'High-temperature overheating', 'Low-temperature overheating', 'Middle-temperature overheating', 'Normal', 'Partial discharge', 'Spark discharge', 'max'])
-    for i in range(7):
-        df2.iloc[:,i] = pd.DataFrame(model.predict_proba(X)[i])[1]
+    df2 = pd.DataFrame(model.predict_proba(X), columns=['Arc discharge', 'High overheating', 'Medium overheating', 'Normal',
+        'Partial discharge', 'Spark discharge'])
     df2['max'] = df2.max(axis=1)
+    df2['class'] = model.predict(X)
+
+
 
 
     # set page rows and columns
     
     container = st.container()
-    col_high, col_medium, col_pd, col_spark, col_arc = st.columns(5)
+    col_normal, col_medium, col_high, col_spark, col_pd, col_arc = st.columns(6)
     st.markdown('')
     chart_col,checkbox_col= st.columns(2)
     addData_row = st.container()
@@ -178,30 +180,35 @@ if authentication_status:
         
         
         with col_medium:
-            if round(delta[3][0][1]*100) == 0:       
-                st.metric(label='Medium Overheating', value=str(round(score[3][0][1]*100))+"%")
+            if round(delta[0][2]*100) == 0:       
+                st.metric(label='Medium Overheating', value=str(round(score[0][2]*100))+"%")
             else:
-                st.metric(label='Medium Overheating', value=str(round(score[3][0][1]*100))+"%", delta=str(round(delta[3][0][1]*100))+" %", delta_color='inverse')
+                st.metric(label='Medium Overheating', value=str(round(score[0][2]*100))+"%", delta=str(round(delta[0][2]*100))+" %", delta_color='inverse')
         with col_high:
-            if round(delta[1][0][1]*100) == 0:
-                st.metric(label='High Overheating', value=str(round(score[1][0][1]*100))+"%")  
+            if round(delta[0][1]*100) == 0:
+                st.metric(label='High Overheating', value=str(round(score[0][1]*100))+"%")  
             else:
-                st.metric(label='High Overheating', value=str(round(score[1][0][1]*100))+"%", delta=str(round(delta[1][0][1]*100))+" %", delta_color='inverse')
+                st.metric(label='High Overheating', value=str(round(score[0][1]*100))+"%", delta=str(round(delta[0][1]*100))+" %", delta_color='inverse')
         with col_pd:
-            if round(delta[5][0][1]*100) == 0:
-                st.metric(label='Partial Discharge', value=str(round(score[5][0][1]*100))+"%")
+            if round(delta[0][4]*100) == 0:
+                st.metric(label='Partial Discharge', value=str(round(score[0][4]*100))+"%")
             else:
-                st.metric(label='Partial Discharge', value=str(round(score[5][0][1]*100))+"%", delta=str(round(delta[5][0][1]*100))+" %", delta_color='inverse')
+                st.metric(label='Partial Discharge', value=str(round(score[0][4]*100))+"%", delta=str(round(delta[0][4]*100))+" %", delta_color='inverse')
         with col_spark:
-            if round(delta[6][0][1]*100) == 0:
-                st.metric(label='Spark Discharge', value=str(round(score[6][0][1]*100))+"%")
+            if round(delta[0][5]*100) == 0:
+                st.metric(label='Spark Discharge', value=str(round(score[0][5]*100))+"%")
             else:
-                st.metric(label='Spark Discharge', value=str(round(score[6][0][1]*100))+"%", delta=str(round(delta[6][0][1]*100))+" %", delta_color='inverse')
+                st.metric(label='Spark Discharge', value=str(round(score[0][5]*100))+"%", delta=str(round(delta[0][5]*100))+" %", delta_color='inverse')
         with col_arc:
-            if round(delta[0][0][1]*100) == 0:
-                st.metric(label='Arc Discharge', value=str(round(score[0][0][1]*100))+"%")
+            if round(delta[0][0]*100) == 0:
+                st.metric(label='Arc Discharge', value=str(round(score[0][0]*100))+"%")
             else:
-                st.metric(label='Arc Discharge', value=str(round(score[0][0][1]*100))+"%", delta=str(round(delta[0][0][1]*100))+" %", delta_color='inverse')
+                st.metric(label='Arc Discharge', value=str(round(score[0][0]*100))+"%", delta=str(round(delta[0][0]*100))+" %", delta_color='inverse')
+        with col_normal:
+            if round(delta[0][3]*100) == 0:
+                st.metric(label='Normal', value=str(round(score[0][3]*100))+"%")
+            else:
+                st.metric(label='Normal', value=str(round(score[0][3]*100))+"%", delta=str(round(delta[0][3]*100))+" %", delta_color='inverse')
 
 
     def main():
