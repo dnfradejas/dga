@@ -251,7 +251,7 @@ if authentication_status:
                 # check if the value of state is selected
                 if color in selected_states:
                     folium.CircleMarker(location=[address['LAT'][i], address['LNG'][i]], 
-                                        radius=5,
+                                        radius=3,
                                         color=color,
                                         fill=True,
                                         fill_color=color,
