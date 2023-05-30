@@ -225,12 +225,13 @@ if authentication_status:
             Return the color of the datapoints 
             """
             color = ""
-            if df2['max'][index] < 0.6:
-                color = 'darkgreen'
-            elif (df2['max'][index] >= 0.6) and (df2['max'][index] < 0.80):
+            if (df2['class'][index] == 'Medium overheating') or (df2['class'][index] == 'High overheating'):
                 color = '#d45800'
+            elif (df2['class'][index] == 'Arc discharge') or (df2['class'][index] == 'Partial discharge') or (df2['class'][index] == 'Spark discharge'):
+                color = 'darkred'
             else:
-                color = 'darkred'    
+                color = 'darkgreen'    
+
 
             return color
 
